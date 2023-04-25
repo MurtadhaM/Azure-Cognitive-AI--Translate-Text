@@ -8,7 +8,7 @@
 This Project is created to serve as a connector between Azure Translate and a Client Application. It is a REST API that can be used to translate text from one language to another. It is built using Node.js and Express.js. It uses Azure Cognitive Services to translate the text. It is deployed on Azure App Service.
 
 ---
-<a href="http://findasnake.com">![](https://img.shields.io/badge/QuickLinks-Used-blue)</a>
+<a href="http://findasnake.com">![](https://img.shields.io/badge/QuickLinks-Demo-blue)</a>
 
 ## Quick Links
 - [x] [API Playground](http://api.findasnake.com/api-docs/)
@@ -20,7 +20,7 @@ This Project is created to serve as a connector between Azure Translate and a Cl
 ## Demo
 
 ---
-<a href="http://findasnake.com">![](https://img.shields.io/badge/LiveDemo-Used-red)</a>
+<a href="http://findasnake.com">![](https://img.shields.io/badge/LiveDemo-POC-red)</a>
 
 #### Client App Demo
 <img src="Client%20App%20Demo.gif"> 
@@ -52,6 +52,7 @@ This Project is created to serve as a connector between Azure Translate and a Cl
 
 The following methods are supported by the Text Translation feature:
 
+![](https://img.shields.io/badge/Features-API-blue)
 
   - Translate: Renders single source-language text to multiple target-language texts with a single request
   
@@ -64,7 +65,7 @@ The following methods are supported by the Text Translation feature:
 ## Getting Started
 
 ---
-<a href="http://findasnake.com">![](https://img.shields.io/badge/GettingStarted-Used-purple) </a>
+<a href="http://findasnake.com">![](https://img.shields.io/badge/GettingStarted-Setup-purple) </a>
 
 ### Dependencies
 
@@ -80,19 +81,31 @@ npm install
 npm start
 ```
 ### Environment Variables
+###### Create a .env file in the root directory and add the following variables ####
+![](https://img.shields.io/badge/DOTENV-Configuration-green)
 ```bash
 TRANSLATOR_TEXT_REGION="<REGION>" #This is the region that is used to translate the text. It should be in the format "region" e.g. "eastus
-
 TRANSLATOR_TEXT_RESOURCE_KEY="<API KEY>" # This is the API key that is used to authenticate the user
-
 TRANSLATOR_TEXT_ENDPOINT="https://api.cognitive.microsofttranslator.com" # This is the endpoint that is used to translate the text
-
 SECRET="<SECRET>" # This is the secret key that is used to authenticate the user
 ```
 
+![](https://img.shields.io/badge/EnvironmentVariables-CONFIG-green)
+![](https://img.shields.io/badge/Powershell-Command-blue)
+###### Optional Environment Variables (Powershell) ######
+```powershell
+Set-Variable -Name "TRANSLATOR_TEXT_REGION" -Value "<REGION>" -Scope "User"
+Set-Variable -Name "TRANSLATOR_TEXT_RESOURCE_KEY" -Value "<API_KEY>" -Scope "User"
+Set-Variable -Name "TRANSLATOR_TEXT_ENDPOINT" -Value "https://api.cognitive.microsofttranslator.com" -Scope "User"
+Set-Variable -Name "SECRET" -Value "<SECRET>" -Scope "User"
+```
+
+
+
+
 ### Endpoints
 ---
-<a href="http://findasnake.com">![](https://img.shields.io/badge/Endpoints-Used-yellow)
+<a href="http://findasnake.com">![](https://img.shields.io/badge/Endpoints-REST-yellow)
 </a>
 
 
@@ -112,7 +125,7 @@ SECRET="<SECRET>" # This is the secret key that is used to authenticate the user
 
 ### Using the API (Example)
 ---
-<a href="http://findasnake.com">![](https://img.shields.io/badge/UsingTheAPI-Used-geem)</a>
+<a href="http://findasnake.com">![](https://img.shields.io/badge/UsingTheAPI-EXAMPLE-geem)</a>
 
 The API can be used by sending a POST request to the endpoint. The request body should be in JSON format and should contain the following fields:
 - [ ] `text`: The text to be translated
