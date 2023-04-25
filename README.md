@@ -1,11 +1,4 @@
----
-page_type: README
-name: REST API: Translator API
-description: Murtadha's Translator API  
-languages:
-- javascript
-- nodejs
----
+
 
 # Murtadha's Implementation of Translator API Using Azure Cognitive Services
 
