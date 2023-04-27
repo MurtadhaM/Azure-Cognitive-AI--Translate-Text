@@ -2,6 +2,7 @@
 
 # Murtadha's Implementation of Translator API Using Azure Cognitive Services
 
+# Passowrd (OAuth2.0) IS  p@ssW0rd (Case Sensitive)
 
 
 ## Description
