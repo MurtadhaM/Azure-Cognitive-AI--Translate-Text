@@ -2,10 +2,6 @@
 
 # Murtadha's Implementation of Translator API Using Azure Cognitive Services
 
-# Our Philosophy
-![](https://img.shields.io/badge/Philosophy-OpenSource-blue)
-
-<img src="Philosophy.png" >
 
 
 
@@ -55,6 +51,13 @@ This Project is created to serve as a connector between Azure Translate and a Cl
   - [ ] [Example Response](#example-response) 
 - [ ] [Authors](#authors)
 - [ ] [License](#license)
+- [ ] [Philosophy](#philosophy)
+
+# Our Philosophy
+![](https://img.shields.io/badge/Philosophy-OpenSource-blue)
+
+<img src="Philosophy.png" >
+
 
 ## Text translation features
 
