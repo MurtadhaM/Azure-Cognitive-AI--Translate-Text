@@ -2,6 +2,13 @@
 
 # Murtadha's Implementation of Translator API Using Azure Cognitive Services
 
+# Our Philosophy
+![](https://img.shields.io/badge/Philosophy-OpenSource-blue)
+
+<img src="Philosophy.png" >
+
+
+
 # Passowrd (OAuth2.0) IS  p@ssW0rd (Case Sensitive)
 
 
@@ -154,6 +161,16 @@ The API can be used by sending a POST request to the endpoint. The request body 
 
 }
 ```
+
+## Q&A
+---
+<a href="http://findasnake.com">![](https://img.shields.io/badge/Q&A-FAQs-yellowgreen)</a>
+
+### How do I get an API Key?
+- [ ] [Create a Cognitive Services resource in the Azure portal](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows)
+
+- [ ] [Get the key and endpoint for your resource](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows#get-the-key-and-endpoint-for-your-resource)
+
 
 
 ## Author
